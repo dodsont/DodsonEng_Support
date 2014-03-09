@@ -83,7 +83,7 @@ public class AppRater {
     	new AlertDialog.Builder(mContext)
         //.setIcon(R.drawable.icon)
         .setTitle("Rate " + app_name)
-        .setMessage("If you enjoy using " + app_name + ", please take a moment to rate it.\n\nThank you for your support! God Bless!")
+        .setMessage("If you enjoy using " + app_name + ", please take a moment to rate it.\n\nThank you for your support!")
         .setPositiveButton("No Thanks", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int whichButton) {
                     /* User clicked No Thanks so do some stuff */
